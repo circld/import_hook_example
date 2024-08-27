@@ -8,7 +8,7 @@ This is a minimal proof-of-concept exploring how import hooks might be used to e
 # this should import fine
 python -m src.module_a
 
-# this should not import
+# this should throw an ImportError
 python -m src.module_c
 ```
 
